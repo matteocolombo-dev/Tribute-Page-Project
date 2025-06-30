@@ -36,6 +36,7 @@ h1, h2 {
   padding: 0.5rem 0;
   margin-bottom: 1rem;
   color: var(--title-color);
+  border: solid white 1px;
 }
 
 p {
@@ -92,10 +93,13 @@ blockquote {
 
 #title {
   padding-top: 1rem;
+  margin: 0 auto 1rem;
+  width: 80%;
 }
 
 #description {
-  margin-bottom: 2rem;
+  width: 80%;
+  margin: 0 auto 2rem;
 }
 
 a:link {
